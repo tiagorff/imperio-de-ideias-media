@@ -1,6 +1,6 @@
 # Império de Ideias — Banco de histórias e controle editorial
 
-Atualizado em 25/11/2026. Notas de 0 a 10 com os pesos do briefing (gancho 25%, surpresa 20%, conflito 20%, visual 15%, relevância 10%, originalidade 10%). As notas são heurísticas de seleção, não previsões de alcance.
+Atualizado em 26/11/2026. Notas de 0 a 10 com os pesos do briefing (gancho 25%, surpresa 20%, conflito 20%, visual 15%, relevância 10%, originalidade 10%). As notas são heurísticas de seleção, não previsões de alcance.
 
 **Regra de confiança:** "Alta" = fatos centrais já checados em 2+ fontes. "A verificar" = história conhecida, mas os números, datas e citações ainda precisam de apuração antes do roteiro. Nenhuma história "A verificar" entra em produção sem passar para "Alta".
 
@@ -22,7 +22,7 @@ Atualizado em 25/11/2026. Notas de 0 a 10 com os pesos do briefing (gancho 25%, 
 | 2 | Samuel Klein: de mascate a fundador da Casas Bahia | Brasil, 1952– | A, B, I | Sobrevivente da guerra que começou vendendo de porta em porta | — | Ver nota | **BLOQUEADO** (decisão editorial 24/11: série "Caso Klein" da Agência Pública, 2021, com acusações de crimes sexuais contra meninas; um Reel celebrativo que omita isso seria enganoso — aguarda decisão do Tiago; posição no calendário: 06/12) |
 | 3 | Barão de Mauá: o maior empresário do Império que perdeu tudo | Brasil, séc. XIX | G, I, C | Ferrovias, bancos e estaleiros — e a falência | 8,7 | A verificar | IDEIA (27/11) |
 | 4 | Adidas x Puma: irmãos Dassler rompem e dividem uma cidade | Alemanha, 1924–2009 | E | Uma briga de família que criou duas gigantes | 8,9 | Alta | PUBLICADO (EP02, 24/11) |
-| 5 | Nintendo começou vendendo cartas de baralho (hanafuda) | Japão, 1889– | D, B | 130 anos antes do videogame | 8,5 | A verificar | IDEIA (26/11) |
+| 5 | Nintendo começou vendendo cartas de baralho (hanafuda) | Japão, 1889– | D, B | 130 anos antes do videogame | 8,5 | Alta | AGENDADO 26/11 17h (EP04, Buffer IG + TikTok) |
 | 6 | Elizabeth Magie e o jogo que virou o Monopoly | EUA, 1904–1935 | H | O jogo foi criado para criticar monopólios | 8,4 | A verificar | IDEIA (29/11) |
 | 7 | Madam C. J. Walker, pioneira entre as milionárias self-made | EUA, 1905–1919 | A | Filha de ex-escravizados que criou um império de cosméticos | 8,4 | A verificar | IDEIA (01/12) |
 | 8 | Silvio Santos: de camelô no Rio a dono de rede de TV | Brasil, 1940s– | A, I | A voz que vendia na rua | 8,7 | A verificar | IDEIA (03/12) |
@@ -79,6 +79,14 @@ Temas adicionais do calendário (fora do banco original): Fordlândia (30/11), A
 - **Fontes:** Wikipedia (Havaianas), página "Our story" da Havaianas, História do Mundo, Highsnobiety, Ara (2026), monografia de Rodrigues (BOCC/UFPB, 2006). Detalhes em `fontes.md`.
 - **Decisões de integridade:** o ano de lançamento da Top não foi dito na narração (Rodrigues diz 1994; a página da marca cita "Top" já em 1969); a queda de vendas aparece sem números (nenhuma fonte os traz); "mais de 200 milhões" é o piso comum de Wikipedia (~200 mi), Highsnobiety (220 mi) e Ara (228,7 mi).
 - **Notas técnicas:** tempos via Scribe — as tags de emoção vêm como "palavras" e precisam ser filtradas. Render em 2 segmentos paralelos (~2 min), CRF 21, 25,9 MB, −14,2 LUFS, música ~15 dB abaixo da voz.
+
+## Ficha do EP04 — Nintendo: antes do Mario, baralho
+
+- **Status:** AGENDADO para 26/11/2026 às 17h00 via Buffer — Instagram Reel (post 6b0865b5d3b9c1cd667cc442) e TikTok (post 6b0865bfdba28007e9f3695b), capa = quadro aos 1,5 s (`thumbnailOffset` 1500). Arquivos: `episodios/2026-11-26_nintendo/` (video.mp4, capa.jpg, legenda.txt, fontes.md, producao/ep04.py, scenes.py, trilha.py, timing.json, words.json, narracao.mp3). Commit da2b852.
+- **Roteiro (159 palavras, 14 falas, voz 57,9 s acelerada 1,04× → vídeo 57,7 s):** âncora "Antes do Mario, a Nintendo vendia baralho. E errou feio tentando mudar." (Mario e Nintendo nas 5 primeiras palavras; NINTENDO + "VENDIA BARALHO" na tela desde o 1º quadro) → loop aberto "a salvação veio de quem ninguém esperava" (cartão com tarjas) → Kyoto 1889, Fusajiro Yamauchi, hanafuda → 1949, Hiroshi assume aos 22 → 1959, Disney nas cartas → táxi, arroz instantâneo → quase tudo fracassa; 1964, baralho despenca → re-gancho "e aqui a história vira" → clímax (53%): 1965, Gunpei Yokoi, o homem da manutenção (tarjas reveladas) → braço extensível nas horas vagas; o presidente manda fabricar → Ultra Hand, 1966; Nintendo vira fábrica de brinquedos → Game & Watch (1980), Donkey Kong (1981) estreia o futuro Mario → "A ideia que salvou a Nintendo nasceu no chão da fábrica." + pergunta.
+- **Fontes:** Nintendo Company History (site oficial), Wikipedia (History of Nintendo; Gunpei Yokoi), Film Stories (2022), Vice (Matt Alt, 2020), Fortune (2019), Inc. (2025), the-shashi.com. Detalhes em `fontes.md`.
+- **Decisões de integridade:** ficaram de fora os números de fonte única (ação de 900 para 60 ienes; vendas da Ultra Hand — Vice 1,4 mi × Wikipedia "centenas de milhares"; 600 mil baralhos Disney) e o "motel do amor" (sem prova documental). Disney em 1959 (site oficial + 2 fontes; Wikipedia diz 1958). Mario não é desenhado (personagem protegido), só citado em texto.
+- **Notas técnicas:** tempos via Scribe ligado ao nó de fala (custo 0); o filtro de tags precisa descartar também "mais" de "[suspense, mais devagar]". Render em 4 segmentos paralelos (~1 min), CRF 21, 28,4 MB, −14,7 LUFS, música ~16 dB abaixo da voz.
 
 ## Notas operacionais
 

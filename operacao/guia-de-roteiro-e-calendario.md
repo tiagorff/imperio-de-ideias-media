@@ -40,7 +40,7 @@ O espectador precisa reconhecer, em até 3 s, uma marca ou produto que ele já c
 - Toda citação atribuída a quem relatou ("segundo ele…"); nada de diálogos inventados.
 - Lenda empresarial só entra como lenda, dita como tal.
 - Números grafados por extenso no texto da narração (o TTS lê melhor) e em algarismos nas legendas.
-- **Tamanho (aprendizado do EP02/EP03):** a voz Flavio Francisco fala ~2,7–3,0 palavras/s. EP02: 162 palavras = 62,5 s brutos (exigiu 1,07×). EP03: 153 palavras = 51,5 s sem aceleração. Mire em 145–155 palavras faladas.
+- **Tamanho (aprendizado do EP02/EP03):** a voz Flavio Francisco fala ~2,7–3,0 palavras/s. EP02: 162 palavras = 62,5 s brutos (exigiu 1,07×). EP03: 153 palavras = 51,5 s sem aceleração. Mire em 145–155 palavras faladas. EP04: 159 palavras = 57,9 s brutos (1,04×, 55,7 s de voz) — anos por extenso pesam; prefira "em sessenta e quatro" a "mil novecentos e sessenta e quatro" depois do primeiro ano completo.
 
 **Checklist de retenção (nota mínima 8/10 antes de produzir)**
 1. O gancho funciona sem contexto **e cita a marca (falada e na tela) antes dos 3 s**? 2. Existe um loop aberto explícito? 3. O loop é pago depois dos 50% do vídeo? 4. Há re-gancho no meio? 5. Cada cena muda algo na tela a cada 2–3 s? 6. Há pelo menos 4 dados concretos verificados? 7. O final tem frase-síntese + pergunta? 8. Nenhuma afirmação sem fonte?
@@ -60,7 +60,7 @@ Status inicial de todos: IDEIA (fatos "a verificar" até a pesquisa do dia). Gan
 | 23/11 seg | Kodak e a câmera digital — **PUBLICADO** (EP01) | C, F | Essa empresa inventou a câmera digital. E quase acabou com ela. |
 | 24/11 ter | Adidas x Puma: os irmãos Dassler — **PUBLICADO** (EP02, Metricool id 440597956) | E | Dois irmãos dividiram uma fábrica. E acabaram dividindo uma cidade inteira. (loop: a prova está num cemitério) |
 | 25/11 qua | Havaianas: da sandália simples ao ícone — **AGENDADO** 17h (EP03; Buffer IG 6b0713d9db153417ca0ff640, TikTok 6b0713dbade17749debfff65) | D, I | A Havaianas do seu pé já foi chamada de chinelo de pobre. (loop: o truque que nem foi da marca = surfistas virando a sola) |
-| 26/11 qui | Nintendo antes do videogame | D | Antes do Mario, a Nintendo vendia baralho. Há mais de 130 anos. |
+| 26/11 qui | Nintendo antes do videogame — **AGENDADO** 17h (EP04; Buffer IG 6b0865b5d3b9c1cd667cc442, TikTok 6b0865bfdba28007e9f3695b) | D | Antes do Mario, a Nintendo vendia baralho. E errou feio tentando mudar. (loop: quem salvou = Gunpei Yokoi, o homem da manutenção) |
 | 27/11 sex | Barão de Mauá | G, I | O homem mais rico do Império… e o que o derrubou. |
 | 28/11 sáb | Blockbuster recusa a Netflix | J, C | A Blockbuster podia ter comprado a Netflix. Riram da proposta. |
 | 29/11 dom | Elizabeth Magie e o Monopoly | H | O Banco Imobiliário/Monopoly, jogo sobre ficar rico, foi criado para criticar quem fica rico. |
