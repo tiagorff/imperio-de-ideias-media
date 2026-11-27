@@ -61,7 +61,7 @@ Status inicial de todos: IDEIA (fatos "a verificar" até a pesquisa do dia). Gan
 | 24/11 ter | Adidas x Puma: os irmãos Dassler — **PUBLICADO** (EP02, Metricool id 440597956) | E | Dois irmãos dividiram uma fábrica. E acabaram dividindo uma cidade inteira. (loop: a prova está num cemitério) |
 | 25/11 qua | Havaianas: da sandália simples ao ícone — **AGENDADO** 17h (EP03; Buffer IG 6b0713d9db153417ca0ff640, TikTok 6b0713dbade17749debfff65) | D, I | A Havaianas do seu pé já foi chamada de chinelo de pobre. (loop: o truque que nem foi da marca = surfistas virando a sola) |
 | 26/11 qui | Nintendo antes do videogame — **AGENDADO** 17h (EP04; Buffer IG 6b0865b5d3b9c1cd667cc442, TikTok 6b0865bfdba28007e9f3695b) | D | Antes do Mario, a Nintendo vendia baralho. E errou feio tentando mudar. (loop: quem salvou = Gunpei Yokoi, o homem da manutenção) |
-| 27/11 sex | Barão de Mauá | G, I | O homem mais rico do Império… e o que o derrubou. |
+| 27/11 sex | Barão de Mauá e o Banco do Brasil — **AGENDADO** 17h (EP05; Buffer IG 6b09b884f34d25de1e2f2b4e, TikTok 6b09b885f34d25de1e2f2bc5) | G, I | O Banco do Brasil nasceu, em parte, do banco de um só homem. E esse homem quebrou. (loop: quem negou o socorro = o próprio Banco do Brasil) |
 | 28/11 sáb | Blockbuster recusa a Netflix | J, C | A Blockbuster podia ter comprado a Netflix. Riram da proposta. |
 | 29/11 dom | Elizabeth Magie e o Monopoly | H | O Banco Imobiliário/Monopoly, jogo sobre ficar rico, foi criado para criticar quem fica rico. |
 | 30/11 seg | Fordlândia: a cidade de Ford na Amazônia | C, I | A Ford construiu uma cidade americana no meio da Amazônia. Não deu certo. |

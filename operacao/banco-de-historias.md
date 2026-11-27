@@ -1,6 +1,6 @@
 # Império de Ideias — Banco de histórias e controle editorial
 
-Atualizado em 26/11/2026. Notas de 0 a 10 com os pesos do briefing (gancho 25%, surpresa 20%, conflito 20%, visual 15%, relevância 10%, originalidade 10%). As notas são heurísticas de seleção, não previsões de alcance.
+Atualizado em 27/11/2026. Notas de 0 a 10 com os pesos do briefing (gancho 25%, surpresa 20%, conflito 20%, visual 15%, relevância 10%, originalidade 10%). As notas são heurísticas de seleção, não previsões de alcance.
 
 **Regra de confiança:** "Alta" = fatos centrais já checados em 2+ fontes. "A verificar" = história conhecida, mas os números, datas e citações ainda precisam de apuração antes do roteiro. Nenhuma história "A verificar" entra em produção sem passar para "Alta".
 
@@ -20,7 +20,7 @@ Atualizado em 26/11/2026. Notas de 0 a 10 com os pesos do briefing (gancho 25%, 
 |---|---|---|---|---|---|---|---|
 | 1 | Kodak inventa a câmera digital e quase é destruída por ela | EUA, 1975–2012 | C, F | A empresa que criou o futuro e não conseguiu largar o passado | 8,8 | Alta | PUBLICADO (EP01) |
 | 2 | Samuel Klein: de mascate a fundador da Casas Bahia | Brasil, 1952– | A, B, I | Sobrevivente da guerra que começou vendendo de porta em porta | — | Ver nota | **BLOQUEADO** (decisão editorial 24/11: série "Caso Klein" da Agência Pública, 2021, com acusações de crimes sexuais contra meninas; um Reel celebrativo que omita isso seria enganoso — aguarda decisão do Tiago; posição no calendário: 06/12) |
-| 3 | Barão de Mauá: o maior empresário do Império que perdeu tudo | Brasil, séc. XIX | G, I, C | Ferrovias, bancos e estaleiros — e a falência | 8,7 | A verificar | IDEIA (27/11) |
+| 3 | Barão de Mauá: o maior empresário do Império que perdeu tudo | Brasil, séc. XIX | G, I, C | O banco que nasceu do banco dele negou o socorro | 8,7 | Alta | AGENDADO 27/11 17h (EP05, Buffer IG + TikTok) |
 | 4 | Adidas x Puma: irmãos Dassler rompem e dividem uma cidade | Alemanha, 1924–2009 | E | Uma briga de família que criou duas gigantes | 8,9 | Alta | PUBLICADO (EP02, 24/11) |
 | 5 | Nintendo começou vendendo cartas de baralho (hanafuda) | Japão, 1889– | D, B | 130 anos antes do videogame | 8,5 | Alta | AGENDADO 26/11 17h (EP04, Buffer IG + TikTok) |
 | 6 | Elizabeth Magie e o jogo que virou o Monopoly | EUA, 1904–1935 | H | O jogo foi criado para criticar monopólios | 8,4 | A verificar | IDEIA (29/11) |
@@ -87,6 +87,15 @@ Temas adicionais do calendário (fora do banco original): Fordlândia (30/11), A
 - **Fontes:** Nintendo Company History (site oficial), Wikipedia (History of Nintendo; Gunpei Yokoi), Film Stories (2022), Vice (Matt Alt, 2020), Fortune (2019), Inc. (2025), the-shashi.com. Detalhes em `fontes.md`.
 - **Decisões de integridade:** ficaram de fora os números de fonte única (ação de 900 para 60 ienes; vendas da Ultra Hand — Vice 1,4 mi × Wikipedia "centenas de milhares"; 600 mil baralhos Disney) e o "motel do amor" (sem prova documental). Disney em 1959 (site oficial + 2 fontes; Wikipedia diz 1958). Mario não é desenhado (personagem protegido), só citado em texto.
 - **Notas técnicas:** tempos via Scribe ligado ao nó de fala (custo 0); o filtro de tags precisa descartar também "mais" de "[suspense, mais devagar]". Render em 4 segmentos paralelos (~1 min), CRF 21, 28,4 MB, −14,7 LUFS, música ~16 dB abaixo da voz.
+
+## Ficha do EP05 — Barão de Mauá e o Banco do Brasil
+
+- **Status:** AGENDADO para 27/11/2026 às 17h00 via Buffer — Instagram Reel (post 6b09b884f34d25de1e2f2b4e) e TikTok (post 6b09b885f34d25de1e2f2bc5), capa = quadro aos 1,5 s (`thumbnailOffset` 1500). Arquivos: `episodios/2026-11-27_barao-de-maua/` (video.mp4, capa.jpg, legenda.txt, fontes.md, producao/ep05.py, trilha.py, timing.json, words.json, narracao.mp3). Commit 15d73fd.
+- **Âncora de marca:** sem marca famosa direta, ancorado no **Banco do Brasil** (ligação verificada: o banco de Mauá de 1851 foi fundido pelo governo em 1853 com o Banco Comercial, originando o BB atual — Agência Senado; Revista CLIO/UFPE). BANCO DO BRASIL + "NASCEU DO BANCO DE UM SÓ HOMEM" na tela desde o 1º quadro.
+- **Roteiro (159 palavras, 14 falas, voz 55,3 s sem aceleração → vídeo 57,3 s):** "O Banco do Brasil nasceu, em parte, do banco de um só homem." → "esse homem quebrou; o 'não' veio de onde ninguém esperava" (cartão com tarja) → Irineu Evangelista de Sousa, Barão de Mauá → 1851, banco privado chamado Banco do Brasil → 1853, fusão pelo governo → 1854, primeira ferrovia, 14,5 km → estaleiro, gás no Rio, cabo submarino → re-gancho "Mas aqui a história vira" → 1875, crise no Uruguai → pede 3 mil contos → clímax (74%): quem nega é o Banco do Brasil, "o banco que nasceu do banco dele" (tarja revelada + carimbo NEGADO) → moratória, 1878 falência → "Quem constrói o sistema nem sempre é salvo por ele." + "Mauá foi vítima, ou arriscou demais?".
+- **Fontes:** Agência Senado (2023), Revista CLIO/UFPE (Martins & Gambi, 2024), Capital Aberto (2013 e 2015), Revista Pesquisa FAPESP (2005), Diário do Rio (2023), Toda Matéria. Detalhes em `fontes.md`.
+- **Decisões de integridade:** fora do roteiro a "fortuna maior que o orçamento do Império" (115 × 97 mil contos — fonte única, sem referência) e a quitação de todos os credores (não confirmada em 2 fontes). Não se afirma que o governo derrubou Mauá: a recusa foi do Banco do Brasil e as causas são debatidas (registrado na legenda). Clímax ficou em 74% (acima da faixa ideal de 60–70%).
+- **Notas técnicas:** Scribe ligado ao nó de fala (custo 0); filtro de tags descarta "mais" de "[suspense, mais devagar]" por tempo. Render em 4 segmentos paralelos (~3 min), CRF 21, 27,6 MB, −14,7 LUFS, música ~20 dB abaixo da voz. O clone do repositório estava em HEAD destacado: push com `git push origin HEAD:main`. O link raw de `main` levou ~1 min para sair do 404 (cache do CDN).
 
 ## Notas operacionais
 
