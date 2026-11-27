@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:"Bebas";src:url(assets/fonts/BebasNeue-Regular.ttf)}
+@font-face{font-family:"MontSB";src:url(assets/fonts/Montserrat-SemiBold.ttf)}
+@font-face{font-family:"MontMD";src:url(assets/fonts/Montserrat-Medium.ttf)}
+@font-face{font-family:"MontXB";src:url(assets/fonts/Montserrat-ExtraBold.ttf)}
+/* Tokens do estilo premium aprovado (Império de Ideias) */
+:root{
+  --bg0:#07090F; --bg1:#0E1320; --gold:#FBBF24; --orange:#FF6B35; --ink:#F9FAFB; --blue:#3B82F6;
+  --mut:#9CA3AF; --line:#263042; --paper:#ECE6D8; --paper2:#DED6C4; --pink:#1B1F27;
+  /* área segura comum a Reels/TikTok/Shorts em 1080x1920: y 288–1248, x 120–888 (trilho de ações à direita) */
+  --safe-top:288px; --safe-bottom:1248px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg0)}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--bg0);font-family:"MontSB"}
+.scene{position:absolute;inset:0}
+.bg{position:absolute;inset:0;background:linear-gradient(180deg,var(--bg0) 0%,var(--bg1) 50%,var(--bg0) 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(#16233A 1px,transparent 1px),linear-gradient(90deg,#16233A 1px,transparent 1px);background-size:60px 60px;opacity:.45}
+.abs{position:absolute;left:120px;width:768px;text-align:center} /* coluna segura: x 120–888 */
+.bebas{font-family:"Bebas";line-height:.95;letter-spacing:.04em}
+.kicker{font-family:"MontSB";font-size:26px;letter-spacing:6px;color:var(--gold)}
+.gold{color:var(--gold)} .orange{color:var(--orange)} .ink{color:var(--ink)} .mut{color:var(--mut)}
+.shadow{text-shadow:0 4px 18px rgba(0,0,0,.6)}
+/* cartão de documento (papel) com tarja */
+.card{position:absolute;background:linear-gradient(180deg,var(--paper),var(--paper2));border-radius:6px;box-shadow:0 30px 60px rgba(0,0,0,.55);color:var(--pink)}
+.card .meta{font-family:"MontSB";font-size:21px;letter-spacing:3px;color:#6B6455}
+.card hr{border:0;border-top:2px solid #B8AE98;margin:14px 0 18px}
+.redact{position:absolute;background:#0B0D12;border-radius:4px;transform-origin:right center}
+/* moldura fixa */
+#grain{position:absolute;inset:-300px;background:url(assets/grain.png);opacity:.09;mix-blend-mode:overlay;pointer-events:none}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,rgba(0,0,0,0) 45%,rgba(0,0,0,.75) 100%)}
+#brandtop{position:absolute;top:178px;width:1080px;text-align:center;font-size:24px;letter-spacing:6px;color:rgba(249,250,251,.6)}
+#prog{position:absolute;top:236px;left:80px;width:920px;height:4px;border-radius:2px;background:rgba(249,250,251,.16)}
+#progfill{position:absolute;inset:0;background:var(--gold);border-radius:2px;transform-origin:left center}
+.chap{position:absolute;top:266px;left:80px;width:920px;font-size:24px;letter-spacing:5px}
+.chap .cn{color:var(--gold)} .chap .cy{position:absolute;right:0;color:var(--mut)}
+/* legendas: base da área segura, sem caixa, palavra-chave dourada */
+#capband{position:absolute;left:0;top:1080px;width:1080px;height:260px;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.55) 55%,rgba(0,0,0,0))}
+.cap{position:absolute;top:1140px;left:120px;width:768px;text-align:center;font-family:"MontSB";font-size:56px;line-height:1.15;color:var(--ink);text-shadow:0 3px 14px rgba(0,0,0,.8)}
+.cap .k{color:var(--gold)}
+.cap .w{display:inline-block}
+{{CSS}}
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="{{TOTAL}}" data-width="1080" data-height="1920">
+{{SCENES}}
+<div id="vig" class="clip" data-start="0" data-duration="{{TOTAL}}" data-track-index="5"></div>
+<div id="grain" class="clip" data-start="0" data-duration="{{TOTAL}}" data-track-index="6"></div>
+<div id="frame" class="clip" data-start="0" data-duration="{{PROG}}" data-track-index="7">
+  <div id="brandtop">IMPÉRIO DE IDEIAS</div>
+  <div id="prog"><div id="progfill"></div></div>
+</div>
+{{CHAPTERS}}
+<div id="capband" class="clip" data-start="0" data-duration="{{TOTAL}}" data-track-index="4"></div>
+{{CAPTIONS}}
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+const TOTAL = {{TOTAL}};
+tl.fromTo("#progfill",{scaleX:0},{scaleX:1,duration:{{PROG}},ease:"none"},0);
+tl.fromTo("#grain",{backgroundPosition:"0px 0px"},{backgroundPosition:"{{GRAINX}}px {{GRAINY}}px",duration:TOTAL,ease:"steps({{STEPS}})"},0);
+{{JS}}
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script>
+</body>
+</html>
