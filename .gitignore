@@ -1,5 +1,5 @@
-hf/.hyperframes/
-hf/assets/fonts/
-video_mudo.mp4
+**/hf/.hyperframes/
+**/hf/assets/fonts/
+**/video_mudo.mp4
 __pycache__/
 node_modules/
